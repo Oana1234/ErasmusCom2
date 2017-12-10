@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "851135806174",
+    "firebase_url": "https://erasmusapp-30e7b.firebaseio.com",
+    "project_id": "erasmusapp-30e7b",
+    "storage_bucket": "erasmusapp-30e7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851135806174:android:8ba36d0c704ee73c",
+        "android_client_info": {
+          "package_name": "com.oanabalaita.oana_maria.erasmuscom2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851135806174-g80dkqjn3vcg7gj5gut78v6ouh9m4d29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oanabalaita.oana_maria.erasmuscom2",
+            "certificate_hash": "2e46b1a09d2c971b8eb920b6608d9068af8ff3be"
+          }
+        },
+        {
+          "client_id": "851135806174-mh5hr8s0brhe02hl526vhpcgfeakrt1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB3kIhxzqMDjbOueGie-JUsin3P6wPMCw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851135806174-mh5hr8s0brhe02hl526vhpcgfeakrt1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

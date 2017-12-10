@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oanabalaita.oana_maria.erasmuscom2.PrivacyActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="20dp">
+
+    <TextView
+        android:id="@+id/textTitlePriv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/title_priv"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_adv"
+        android:textSize="15sp"
+        android:text="@string/title_adv"
+        android:layout_below="@+id/textTitlePriv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content1adv"
+            android:textColor="@color/black"
+            android:layout_below="@id/title_adv"
+            android:layout_marginTop="10dp"
+            android:text="@string/content_adv"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content2adv"
+            android:textColor="@color/black"
+            android:layout_below="@id/content1adv"
+            android:layout_marginTop="10dp"
+            android:text="@string/content_adv2"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_pers"
+            android:layout_below="@id/content2adv"
+            android:text="@string/title_pers"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:textSize="15sp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_pers"
+            android:textColor="@color/black"
+            android:layout_below="@id/title_pers"
+            android:layout_marginTop="10dp"
+            android:text="@string/content_personal"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_changes"
+            android:layout_below="@id/content_pers"
+            android:text="@string/title_changes"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_changes"
+            android:textColor="@color/black"
+            android:layout_below="@id/title_changes"
+            android:layout_marginTop="10dp"
+            android:text="@string/content_changes"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_contact"
+            android:layout_below="@id/content_changes"
+            android:text="@string/title_contact"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_contact"
+            android:textColor="@color/black"
+            android:layout_below="@id/title_contact"
+            android:layout_marginTop="10dp"
+            android:text="@string/content_contact_name"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_contact"
+            android:textColor="@color/black"
+            android:text="@string/content_contact_email"
+            android:layout_below="@id/name_contact"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

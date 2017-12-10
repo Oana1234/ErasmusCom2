@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrmesageriefragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTitlu"
+            android:background="@drawable/titlubun"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageMesagerie"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/group"
+            android:layout_above="@+id/imageGroups"
+            android:layout_alignEnd="@+id/imageGroups"
+            android:layout_marginBottom="109dp" />
+
+
+        <Button
+            android:background="@drawable/butontransp"
+            android:id="@+id/butonMesagerie"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Memebers"
+
+
+            android:layout_above="@+id/imageMesagerie"
+            android:layout_alignStart="@+id/butonGrupuri" />
+
+        <ImageView
+            android:id="@+id/imageGroups"
+            android:layout_width="55dp"
+            android:layout_height="47dp"
+            app:srcCompat="@drawable/groups"
+            android:layout_marginBottom="12dp"
+            android:layout_above="@+id/butonGrupuri"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/butonGrupuri"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Groups"
+            android:background="@drawable/butontransp"
+            android:layout_marginBottom="14dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

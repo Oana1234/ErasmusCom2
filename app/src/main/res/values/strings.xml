@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Erasmus Community</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+
+    <string name="slide_3_title">INTRO</string>
+    <string name="slide_3_desc">This part will be an introduction for the students who are not clear about erasmus</string>
+
+    <string name="slide_4_title">So baby be patient </string>
+    <string name="slide_4_desc">Thank you for your deadline ^_^ I love you </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="notregistered">Not registered? Register now</string>
+    <string name="alreadyregistered">Already registered? Login in now</string>
+    <string name="register">Register</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_post">Post Drawer</string>
+    <string name="nav_info">Info Drawer</string>
+    <string name="nav_social">Social Drawer</string>
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Info Drawer</item>
+        <item>Social Drawer</item>
+        <item>Post Drawer</item>
+
+    </string-array>
+
+
+    <string name="activity_title_community_news">Community News</string>
+    <string name="activity_title_ratings">Ratings</string>
+    <string name="activity_title_tops">Tops</string>
+
+    <string name="action_clear_all">Clear All</string>
+
+    <string name="settings">Settings</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="myprofile">My Profile</string>
+    <string name="help">Help</string>
+    <string name="other">Other</string>
+    <string name="hello_blank_fragment">Heloooooo</string>
+
+    <string-array name="status_array">
+
+        <item>STUDENT</item>
+        <item>ERASMUS STUDENT</item>
+
+    </string-array>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="email">Email Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_register">New user, tap here to register !</string>
+
+    <string name="user_successfully_added">User successfully added!</string>
+    <string name="user_unable_to_add">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to database.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="font_family_roboto_light">sans-serif-thin</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="login_with">Login with</string>
+    <string name="save">Save</string>
+    <string name="nameAndSurname">Name and Surname</string>
+    <string name="status">Status</string>
+    <string name="city">Current City</string>
+    <string name="country">Current Country</string>
+    <string name="university">Current University</string>
+    <string name="chgpass">Change Password</string>
+    <string name="titleinsert">Erasmus Mobility/Home University Details</string>
+    <string name="putinfos">We kindly recommend you to fill your personal details in order to be found by other students after name or other filters.</string>
+
+    <string name="title_categ">TIPS&amp;TRICKS</string>
+    <string name="title_desc">SAVE TIME AND LEARN FROM OTHERS` EXPERIENCE</string>
+
+
+    <string-array name="countries_list">
+        <item>Choose a country…</item>
+        <item>AUSTRIA</item>
+        <item>BELGIUM</item>
+        <item>BULGARIA</item>
+        <item>CROATIA</item>
+        <item>CYPRUS</item>
+        <item>CZECH REPUBLIC</item>
+        <item>DENMARK</item>
+        <item>ESTONIA</item>
+        <item>FRANCE</item>
+        <item>GERMANY</item>
+        <item>GREECE</item>
+        <item>HUNGARY</item>
+        <item>IRELAND</item>
+        <item>ITALY</item>
+        <item>LATVIA</item>
+        <item>LIECHSTEIN</item>
+        <item>LITHUANIA</item>
+        <item>LUXEMBOURG</item>
+        <item>MALTA</item>
+        <item>NETHERLANDS</item>
+        <item>NORWAY</item>
+        <item>POLAND</item>
+        <item>REPUBLIC OF MACEDONIA</item>
+        <item>SLOVAKIA</item>
+        <item>SLOVENIA</item>
+        <item>SPAIN</item>
+        <item>TURKEY</item>
+        <item>YUGOSLAV</item>
+
+    </string-array>
+
+    <string name="title_priv">Privacy Policy</string>
+    <string name="title_adv">Advertising</string>
+    <string name="content_adv">  The advertising insertions become provided by the advertising partner Google. Google uses your device-ID for the production of demographic and interest categories. These demographic and interest categories are used to personalise advertisement.</string>
+    <string name="content_adv2">  We have absolutly no influence on the collection of personal data from Google.</string>
+
+    <string name="title_pers">Personal Information</string>
+    <string name="content_personal">We do not collect any personal information about the users of out app. We do collect anonymous usage information about our app to help us improve our services and applications. This does not identify any user, but allow us to see trends which help us make decisions to improve our functionalities.</string>
+
+    <string name="title_changes">Changes</string>
+    <string name="content_changes">We reserve the right to change, modify or amend this Privacy Policy at any time. Further changes will not affect personal information or posted pictures. In case of any unregular or intended change or your personal information you may contact us at the address below. </string>
+
+    <string name="title_contact">Contact</string>
+    <string name="content_contact_name"> Balaita Oana- Maria </string>
+    <string name="content_contact_email">oana4hi@gmail.com</string>
+
+
+
+</resources>

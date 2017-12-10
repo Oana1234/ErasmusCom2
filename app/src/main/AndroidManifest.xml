@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oanabalaita.oana_maria.erasmuscom2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hisl"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hisl"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.oanabalaita.oana_maria.erasmuscom2.SplashActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.oanabalaita.oana_maria.erasmuscom2.MainActivity"
+            android:label="ErasmuCom" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.PreMainActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.BunVenitActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.ui.activities.CommunityNewsActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.TopsActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.RatingsActivity" />
+
+        <service android:name="com.oanabalaita.oana_maria.erasmuscom2.fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.oanabalaita.oana_maria.erasmuscom2.fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.oanabalaita.oana_maria.erasmuscom2.ui.activities.ChatActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.ui.activities.HomeMessagingActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.ui.activities.ProfileActivity">
+            android:theme="@style/AppTheme.NoActionBar"
+        </activity>
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.ui.activities.PersonalProfileActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.SettingsActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.EducationActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.AdministrativeActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.FoodActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.OthersActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.SocialActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.MoneyActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.MoneyPerCityActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.PrivacyActivity" />
+        <activity android:name="com.oanabalaita.oana_maria.erasmuscom2.HelpActivity"></activity>
+    </application>
+
+</manifest>

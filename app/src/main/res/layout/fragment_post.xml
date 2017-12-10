@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oanabalaita.oana_maria.erasmuscom2.fragment.PostFragment"
+    android:background="#c2d5e1"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_margin="20dp">
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_post"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#73828a"
+            android:text="POST"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+
+            android:id="@+id/text_titlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Show others your best Erasmus memories"
+            android:textColor="@color/grey_800"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="200dp"
+            android:background="#a3b0cdce"
+            android:layout_below="@+id/text_titlu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp">
+
+                <ImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/imageUploadPost"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/upload" />
+    </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout2"
+                    android:weightSum="1"
+                    android:layout_above="@+id/button_post"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp">
+
+
+
+
+
+
+                    <android.support.design.widget.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#47979b9b">
+
+
+                        <EditText
+                            android:id="@+id/edit_text_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:hint="Description"
+                            android:inputType="text" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#47979b9b">
+
+                        <EditText
+                            android:id="@+id/edit_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="in: City,Country"
+                            android:inputType="text"
+                            android:textAlignment="center"/>
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+
+</RelativeLayout>
+    </RelativeLayout>

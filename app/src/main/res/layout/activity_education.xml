@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfc4f4f1"
+    tools:context="com.oanabalaita.oana_maria.erasmuscom2.EducationActivity">
+
+    <TextView
+        android:id="@+id/textForSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For more specific tips, choose a city:"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/recycler_view_all_tips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textForSp"
+        app:layoutManager="LinearLayoutManager" />
+    <Button
+        android:id="@+id/add_tip"
+        android:background="@drawable/add_tip"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/logout_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <Button
+        android:id="@+id/buton_back_categ"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_greem_back"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentStart="true"
+
+        />
+
+    <Button
+        android:id="@+id/buttonChooseCity"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:text=""
+        android:background="@drawable/choosecityscaled"/>
+
+
+</RelativeLayout>
+
