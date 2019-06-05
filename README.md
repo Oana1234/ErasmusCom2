@@ -10,8 +10,8 @@
 
 ## Screenshots
 
-<img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p1.jpg" width="200px" height="380px"/>        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p2.jpg"  width="200px" height="380px"  />        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p3.jpg" width="200px" height="380px" />        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p4.jpg" width="200px" height="380px"/>     
-<img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p6.jpg" width="200px" height="380px"/>        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p5.jpg" width="200px" height="380px"/>        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p7.jpg" width="200px" height="380px"/>        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p8.jpg" width="200px" height="380px"/>
+<img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p1.jpg" width="200px" height="380px" hspace="8" />        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p2.jpg"  width="200px" height="380px" hspace="8" />        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p3.jpg" width="200px" height="380px" hspace="8" />        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p4.jpg" width="200px" height="380px" />     
+<img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p6.jpg" width="200px" height="380px" hspace="8"/>        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p5.jpg" width="200px" height="380px" hspace="8"/>        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p7.jpg" width="200px" height="380px" hspace="8"/>        <img src="https://github.com/Oana1234/ErasmusCom2/blob/master/p8.jpg" width="200px" height="380px"/>
 
 
 ## Dependencies
