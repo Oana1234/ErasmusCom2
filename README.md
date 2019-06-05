@@ -17,10 +17,6 @@
 ## Dependencies
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
 
     compile 'com.squareup.okhttp3:logging-interceptor:3.4.0'
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
